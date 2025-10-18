@@ -7,15 +7,15 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "What can you do?",
-    prompt: "What can you do?",
+    label: "딥레이서 불빛",
+    prompt: "딥레이서 LED 불빛이 의미하는것은 무엇인가요?",
     icon: "circle-question",
   },
 ];
 
-export const PLACEHOLDER_INPUT = "Ask anything...";
+export const PLACEHOLDER_INPUT = "이곳에 궁금한 것을 물어보세";
 
-export const GREETING = "How can I help you today?";
+export const GREETING = "안녕하세요! (주)에이아이캐슬의 챗봇입니다.";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
